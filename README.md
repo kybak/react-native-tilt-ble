@@ -1,21 +1,19 @@
-# react-native-tilt
+# react-native-tilt-ble
 
-React Native module for Tilt Hydrometer
+React Native module to read iBeacon data from Tilt Hydrometer.
+
+> :warning: **Compatibility Notice**: Currently only available for Android devices. iOS support coming soon.
 
 ## Installation
 
 ```sh
-npm install react-native-tilt
+npm install react-native-tilt-ble
 ```
 
 ## Usage
 
 ```js
-import { multiply } from 'react-native-tilt';
-
-// ...
-
-const result = await multiply(3, 7);
+const { startScan, scanning, temperature, gravity, device } = useTilt();
 ```
 
 ## Contributing

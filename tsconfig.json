@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-tilt": ["./src/index"]
+      "react-native-tilt-ble": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
